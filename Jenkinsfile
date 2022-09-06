@@ -7,6 +7,11 @@ pipeline {
                 sh 'python3 /Users/yanchenghao/PycharmProjects/PycharmProjects/pythonProject/robot_learn/hello.py'
             }
         }
+        stage('test') {
+            steps {
+                echo 'testing..'
+            }
+        }
     }
     post {
         always {
