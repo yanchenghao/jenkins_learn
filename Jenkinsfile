@@ -16,8 +16,8 @@ pipeline {
     post {
       success {
         mail to: '1147889259@qq.com',
-             subject: "Failed Pipeline: ${currentBuild.fullDisplayName}",
-             body: "Something is wrong with ${env.BUILD_URL}"
+             subject: "Failed Pipeline: ",
+             body: "Something is wrong with "
         }
       }
 
