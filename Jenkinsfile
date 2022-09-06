@@ -13,13 +13,13 @@ pipeline {
             }
         }
     }
-    post {
-      success {
-        mail to: '1147889259@qq.com',
-             subject: "Failed Pipeline: ",
-             body: "Something is wrong with "
-        }
-      }
+//     post {
+//       success {
+//         mail to: '1147889259@qq.com',
+//              subject: "Failed Pipeline: ",
+//              body: "Something is wrong with "
+//         }
+//       }
 
 //     post {
 //         always {
