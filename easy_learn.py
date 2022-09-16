@@ -9,7 +9,7 @@ URL="https://oapi.dingtalk.com/robot/send?access_token=5b6e13315bf24a0a6cc18d299
 def dd_notify():
   body={
     "text": {
-        "content": "关键字"+": "+"mac 发送"
+        "content": "关键字"+": "+"mac 发送1"
     },
     "msgtype": "text"
    }
